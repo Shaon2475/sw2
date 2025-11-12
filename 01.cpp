@@ -12,15 +12,7 @@ int linearSearch(int Arr[], int n, int k) {
 }
 
 int main() {
-    int n, k;
-    cout << "Enter the number of Array elements: ";
-    cin >> n;
-
-    int Arr[n];
-    cout << "Enter the elements for array: ";
-    for (int i = 0; i < n; i++) {
-        cin >> Arr[i];
-    }
+    
 
     cout << "Enter the element to search in array: ";
     cin >> k;
